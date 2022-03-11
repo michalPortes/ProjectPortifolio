@@ -1,0 +1,587 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --circle-js-color: #e7de79;
+  --circle-js-border-color: #837e9f;
+
+  --font-name-normal: 'Merriweather Sans', sans-serif;
+  --font-name-bold: 'Merriweather Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-bg-color);
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+p,
+a {
+  background: var(--bg-cards);
+  color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+section .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-right: 1.5rem;
+}
+li::marker {
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+/*=================Div with photo==============*/
+
+section .container .perfil {
+  background: var(--bg-cards);
+  border-radius: 20px;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+  width: 21.75rem;
+  height: 18.3125rem;
+}
+.container .perfil img {
+  position: relative;
+  margin-left: 6.875rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+}
+.perfil p {
+  font: 400 0.8125rem var(--font-name-normal);
+  margin-top: 0.625rem;
+}
+.perfil h1 {
+  font: 700 1.4375rem var(--font-name-bold);
+  margin-top: 1.875rem;
+}
+
+/*====================My Projects====================*/
+.grid {
+  padding-left: 4rem;
+}
+.grid .myProjects {
+  background: var(--bg-cards);
+  width: 85rem;
+  height: 5.375rem;
+  margin-top: 2.5rem;
+  border-radius: 20px;
+  align-items: center;
+}
+.myProjects .title {
+  font: 700 1.5rem var(--font-name-bold);
+  text-align: left;
+  margin-left: 2rem;
+  padding-top: 1.5rem;
+  border-top-right-radius: 20px;
+}
+.myProjects a {
+  display: block;
+  text-align: right;
+  margin-top: -1.5rem;
+  margin-right: 2rem;
+}
+/*===========================CARDS====================*/
+.cards {
+  display: flex;
+  justify-content: left;
+}
+.cards .cards-1 {
+  background: var(--bg-cards);
+  margin-top: 3rem;
+  width: 41rem;
+  height: 10rem;
+  border-radius: 20px;
+}
+.cards .cards-1 a {
+  font: 400 1.1rem var(--font-name-normal);
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.cards .cards-1 p {
+  font: 400 0.75rem var(--font-name-normal);
+  border-top-right-radius: 20px;
+  display: flex;
+  padding-top: 4rem;
+  margin-left: 2rem;
+}
+.cards .cards-1 .icon-star {
+  display: inline;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.cards .cards-1 .icon-share-2 {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.cards .cards-1 .circle-js {
+  position: absolute;
+  background: var(--circle-js-color);
+  border: 1.7px solid var(--circle-js-border-color);
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  margin-top: 3.255rem;
+  margin-left: 34.5rem;
+}
+.cards .cards-1 i {
+  font: 400 0.75rem var(--font-name-normal);
+  color: var(--text-color);
+  display: block;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+/*=========================SECOND CARD======================*/
+.cards .cards-2 {
+  background: var(--bg-cards);
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width: 41rem;
+  height: 10rem;
+  border-radius: 20px;
+}
+.cards .cards-2 a {
+  font: 400 1.1rem var(--font-name-normal);
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.cards .cards-2 p {
+  font: 400 0.75rem var(--font-name-normal);
+  border-top-right-radius: 20px;
+  display: flex;
+  padding-top: 4rem;
+  margin-left: 2rem;
+}
+.cards .cards-2 .icon-star {
+  display: inline;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.cards .cards-2 .icon-share-2 {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.cards .cards-2 .circle-js {
+  position: absolute;
+  background: var(--circle-js-color);
+  border: 1.7px solid var(--circle-js-border-color);
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  margin-top: 3.255rem;
+  margin-left: 34.5rem;
+}
+.cards .cards-2 i {
+  font: 400 0.75rem var(--font-name-normal);
+  color: var(--text-color);
+  display: block;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+/*=================Div Links=======================*/
+
+section .container .links {
+  background: var(--bg-cards);
+  border-radius: 20px;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  width: 21.75rem;
+  height: 21.75rem;
+}
+section .links ul {
+  background: var(--bg-cards);
+  padding-left: 2.5rem;
+  padding-top: 1.75rem;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.links ul li {
+  background: var(--bg-cards);
+  margin-top: 1.25rem;
+}
+.links ul li a {
+  font: 400 1rem var(--font-name-normal);
+  width: 5rem;
+  height: 5rem;
+}
+
+/*==========================RECENT POSTS================*/
+
+section .recent-post {
+  margin-left: 4rem;
+  margin-top: 2.5rem;
+  background: var(--bg-cards);
+  width: 85rem;
+  height: 5rem;
+  border-radius: 20px;
+}
+section .recent-post p {
+  font: 700 1.5rem var(--font-name-bold);
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 20px;
+}
+
+/*=====================FIRST POST=======================*/
+section .container .post {
+  background: var(--bg-cards);
+  margin-top: 2.5rem;
+  margin-left: 4rem;
+  width: 85rem;
+  height: 14.5rem;
+  border-radius: 20px;
+}
+section .container .post h1 {
+  font: 700 1.5rem var(--font-name-bold);
+  border-radius: 20px;
+  text-align: left;
+  margin-top: -10rem;
+  margin-left: 14rem;
+}
+section .container .post p.title {
+  font: 400 1rem var(--font-name-normal);
+  text-align: left;
+  margin-left: 14rem;
+  padding-top: 0.5rem;
+}
+section .container .post p {
+  font: 400 1rem var(--font-name-normal);
+  text-align: left;
+  margin-left: 14rem;
+  padding-top: 0.5rem;
+}
+section .container .post p.text {
+  margin-top: 2rem;
+}
+.post img {
+  border-radius: 50%;
+  width: 9rem;
+  height: 9rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+section .container .post li.tech-1 {
+  padding-top: 2.5rem;
+  text-align: left;
+  padding-left: 11rem;
+}
+section .container .coments .post ul li a {
+  font: 400 0.8rem var(--font-name-normal);
+  padding-left: 3rem;
+}
+
+/*=======TECNOLOGIS================*/
+section .container .tecnologis {
+  background: var(--bg-cards);
+  border-radius: 20px;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  width: 21.75rem;
+  height: 13rem;
+}
+.container .tecnologis h1 {
+  font: 700 1.5rem var(--font-name-bold);
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 1.25rem;
+}
+.tecnologis .tech-1,
+.tecnologis .tech-2,
+.tecnologis .tech-3 {
+  display: flex;
+  padding-left: 1.3rem;
+  padding-top: 0.3rem;
+}
+.tecnologis button {
+  font: 700 0.75rem var(--font-name-bold);
+  background: var(--bg-techs);
+  color: var(--body-bg-color);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: inline-block;
+  height: 1.5rem;
+  width: 5.375rem;
+  margin: 0.5rem;
+  border: none;
+}
+
+/*========================Expercience====================*/
+
+section .experience {
+  width: 21.75rem;
+  border-top-left-radius: 20px;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+section .experience .title {
+  font: 700 1.5rem var(--font-name-bold);
+  text-align: left;
+  padding-top: 1.875rem;
+  padding-left: 1.25rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.experience .second-title {
+  font: 700 1rem var(--font-name-bold);
+  text-align: left;
+}
+.experience ul {
+  background: var(--bg-cards);
+  padding-bottom: 15px;
+  list-style-type: disc;
+  padding-left: 3rem;
+  padding-top: 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.experience p {
+  font: 400 0.8125rem var(--font-name-normal);
+  text-align: left;
+}
+
+/*===============education====================*/
+section .education {
+  width: 21.75rem;
+  border-top-left-radius: 20px;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+.education .title {
+  font: 700 1.5rem var(--font-name-bold);
+  text-align: left;
+  padding-top: 1.875rem;
+  padding-left: 1.25rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.education .second-title {
+  font: 700 1rem var(--font-name-bold);
+  text-align: left;
+}
+.education ul {
+  background: var(--bg-cards);
+  padding-bottom: 15px;
+  list-style-type: disc;
+  padding-left: 3rem;
+  padding-top: 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.education p {
+  font: 400 0.8125rem var(--font-name-normal);
+  text-align: left;
+}
+
+/*==================RESPONSIVIT=========================*/
+
+@media (max-width: 1400px) {
+  /*=================PROJECTS===========================*/
+  .grid {
+    padding-left: 2.5rem;
+  }
+  section .container .perfil {
+    width: 20rem;
+  }
+  section .container .perfil img {
+    margin-left: 6rem;
+  }
+  .grid .myProjects {
+    width: 55em;
+  }
+
+  /*===========================CARDS====================*/
+  .cards .cards-1 {
+    width: 26rem;
+  }
+  .cards .cards-1 .icon-star,
+  .cards .cards-1 .icon-share-2 {
+    margin-top: 1.5rem;
+  }
+  .cards .cards-1 p {
+    font: 400 1rem var(--font-name-normal);
+  }
+  .cards .cards-1 .circle-js {
+    margin-left: 20.5rem;
+    margin-top: 2rem;
+  }
+  .cards .cards-1 i {
+    margin-top: 1.8rem;
+  }
+
+  /*=========================SECOND CARD======================*/
+  .cards .cards-2 {
+    width: 26rem;
+  }
+  .cards .cards-2 .icon-star,
+  .cards .cards-2 .icon-share-2 {
+    margin-top: 1.5rem;
+  }
+  .cards .cards-2 p {
+    font: 400 1rem var(--font-name-normal);
+  }
+  .cards .cards-2 .circle-js {
+    margin-left: 20.5rem;
+    margin-top: 2rem;
+  }
+  .cards .cards-2 i {
+    margin-top: 1.8rem;
+  }
+
+  section .container .links {
+    width: 20rem;
+  }
+
+  /*==========================RECENT POSTS========================*/
+
+  section .recent-post {
+    width: 55rem;
+    margin-left: 2.5rem;
+  }
+  section .container .post {
+    width: 55rem;
+    margin-left: 2.5rem;
+  }
+  /*==============================TECNOLOGIS=====================*/
+
+  section .container .tecnologis {
+    width: 20rem;
+  }
+  section .container .tecnologis .tech-1,
+  section .container .tecnologis .tech-2,
+  section .container .tecnologis .tech-3 {
+    padding-left: 0.5rem;
+  }
+
+  /*================================EXPERIENCE====================*/
+  section .container .experience {
+    width: 20rem;
+  }
+  /*================================EDUCATIN======================*/
+  section .container .education {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 414px) {
+  section .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 1.5rem;
+  }
+
+  /*=============================PERFIL==========================*/
+
+  section .container .perfil {
+    width: 20rem;
+  }
+  section .container .perfil img {
+    width: 9rem;
+    height: 9rem;
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+  }
+  section .container h1 {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    width: 15rem;
+  }
+  section .container p {
+    font: 400 1.5rem var(--font-name-normal);
+    margin-left: 2.5rem;
+    width: 15rem;
+  }
+
+  /*========================CARDS==========================================*/
+
+  section .container .cards .cards-1 {
+    display: flex;
+    width: 20rem;
+  }
+
+  section .container .cards .cards-1 p {
+    padding-top: 3rem;
+  }
+  .cards .cards-1 .icon-star {
+    display: inline;
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+  }
+  .cards .cards-1 .icon-share-2 {
+    display: inline;
+    margin-top: 8rem;
+    margin-left: 5.5rem;
+  }
+
+  .cards .cards-1 .circle-js {
+    margin-left: 14rem;
+    margin-top: 8.5rem;
+  }
+  .cards .cards-1 i {
+    margin-top: 8.3rem;
+  }
+  /*================================EXPERIENCE==============================*/
+
+  section .container .education {
+    width: 20rem;
+  }
+  section .container .education .title {
+    width: 20rem;
+    margin-left: 0rem;
+  }
+  section .container .education .second-title {
+    margin-left: 0rem;
+  }
+  section .container .education p {
+    margin-left: 0rem;
+    font: 400 1rem var(--font-name-normal);
+  }
+  /*================================Education===============================*/
+
+  section .container .experience {
+    width: 20rem;
+  }
+  section .container .experience .title {
+    width: 20rem;
+    margin-left: 0rem;
+  }
+  section .container .experience .second-title {
+    margin-left: 0rem;
+  }
+  section .container .experience p {
+    margin-left: 0rem;
+    font: 400 1rem var(--font-name-normal);
+  }
+  /*================================DELETE ITEMS============================*/
+  section .myProjects {
+    display: none;
+  }
+
+  section .container .cards .cards-2 {
+    display: none;
+  }
+
+  section .recent-post {
+    display: none;
+  }
+  section .container .post {
+    display: none;
+  }
+}
